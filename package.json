@@ -1,0 +1,29 @@
+{
+  "name": "mobx-noclass",
+  "version": "1.0.0",
+  "description": "Create a mobx store without the use of es6 classes.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint src tests",
+    "test": "node_modules/tape/bin/tape -r babel-register tests/**/*.js"
+  },
+  "keywords": [
+    "mobx",
+    "es6",
+    "helper"
+  ],
+  "author": "Ny Fanilo Andrianjafy (ny.fanilo@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mobx": "^2.3.5"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "tape": "^4.6.0"
+  }
+}
