@@ -39,6 +39,6 @@ Having the actions defined in objects will allow you to have closures that will 
         return this.value++;
       },
       dec() {
-        return this.value -1
+        return this.value--;
       }
     });
