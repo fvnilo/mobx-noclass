@@ -1,6 +1,6 @@
 {
   "name": "mobx-noclass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a mobx store without the use of es6 classes.",
   "main": "./dist/index.js",
   "scripts": {
