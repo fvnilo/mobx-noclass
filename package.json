@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d dist",
     "lint": "eslint src tests",
-    "test": "node_modules/tape/bin/tape -r babel-register tests/**/*.js"
+    "test": "node_modules/tape/bin/tape -r babel-register tests/**/*.js",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "mobx",
@@ -14,6 +15,10 @@
     "helper"
   ],
   "author": "Ny Fanilo Andrianjafy (ny.fanilo@gmail.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nylo-andry/mobx-noclass"
+  },
   "license": "MIT",
   "dependencies": {
     "mobx": "^2.3.5"
