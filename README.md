@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/mobx-noclass.svg)](https://badge.fury.io/js/mobx-noclass)
+
 # mobx-noclass
 
 Utility function to create a mobx store without the use of es6 classes.
